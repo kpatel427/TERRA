@@ -20,9 +20,9 @@ ADD . /code
 # Adding the `code` directory to the path, so we can execute the script.
 ENV PATH /code:$PATH
 
-COPY Dockerfile /opt/
+COPY [ "./terra_finder_gc.pl", "/code/terra_finder_gc.pl" ]
+RUN [ "chmod", "755",  "/code/terra_finder_gc.pl" ]
 
-# Make perl the entry point & main command
-ENTRYPOINT [ "/usr/bin/perl" ]
-CMD [ "/usr/bin/perl" ]
-RUN [ "chmod", "755",  "/opt/terra_finder_gc.pl" ]
+ENTRYPOINT [ "/code/terra_finder_gc.pl" ]
+
+COPY Dockerfile /opt/
