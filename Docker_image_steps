@@ -8,7 +8,7 @@ Building Docker Image
 
 Upload your Image on Cavatica Registry (you can use any docker registry like DockerHub)
 
-	•	LogIn - docker login --username patelk26 --password 8bd28628f57e4e049c744c638303b614 pgc-images.sbgenomics.com
+	•	LogIn - docker login --username patelk26 --password $cavatica_authentication_token pgc-images.sbgenomics.com
 	•	Tagging the image - docker tag terra pgc-images.sbgenomics.com/patelk26/terra:1.0
 	•	Pushing the image - docker push pgc-images.sbgenomics.com/patelk26/terra:1.0
 
