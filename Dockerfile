@@ -25,3 +25,4 @@ COPY Dockerfile /opt/
 # Make perl the entry point & main command
 ENTRYPOINT [ "/usr/bin/perl" ]
 CMD [ "/usr/bin/perl" ]
+RUN [ "chmod", "755",  "/opt/terra_finder_gc.pl" ]
