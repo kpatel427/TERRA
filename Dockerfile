@@ -1,5 +1,5 @@
 # terra - dockerize the tool
-FROM python:3.6
+FROM perl:5.26.1
 
 MAINTAINER patelk26@email.chop.edu
 
