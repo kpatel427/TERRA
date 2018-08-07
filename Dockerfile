@@ -1,9 +1,9 @@
 # terra - dockerize the tool
-FROM perl:5.26.1
+FROM perl:latest
 
 MAINTAINER patelk26@email.chop.edu
 
-ENV PYTHONUNBUFFERED 1
+# ENV PYTHONUNBUFFERED 1
 
 RUN mkdir /code
 
