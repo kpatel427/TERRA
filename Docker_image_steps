@@ -1,0 +1,16 @@
+Building Docker Image
+
+	1.	Create a Project on Cavatica 
+	2.	Download repository from Github containing your script and Dockerfile
+	3.	Unzip the folder and navigate to your folder where there its Dockerfile
+	4.	docker build -t terra .
+	5.	To test your program run : docker run -ti terra bash
+
+Upload your Image on Cavatica Registry (you can use any docker registry like DockerHub)
+
+	•	LogIn - docker login --username patelk26 --password 8bd28628f57e4e049c744c638303b614 pgc-images.sbgenomics.com
+	•	Tagging the image - docker tag terra pgc-images.sbgenomics.com/patelk26/terra:1.0
+	•	Pushing the image - docker push pgc-images.sbgenomics.com/patelk26/terra:1.0
+
+NOTE: Give a version to your image.
+
