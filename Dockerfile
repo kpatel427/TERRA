@@ -21,3 +21,7 @@ ADD . /code
 ENV PATH /code:$PATH
 
 COPY Dockerfile /opt/
+
+# Make perl the entry point & main command
+ENTRYPOINT [ "/usr/bin/perl" ]
+CMD [ "/usr/bin/perl" ]
