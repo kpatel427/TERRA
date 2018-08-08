@@ -23,6 +23,6 @@ ENV PATH /code:$PATH
 COPY [ "./terra_finder_gc.pl", "/code/terra_finder_gc.pl" ]
 RUN [ "chmod", "755",  "/code/terra_finder_gc.pl" ]
 
-ENTRYPOINT [ "/code/terra_finder_gc.pl" ]
+#ENTRYPOINT [ "/code/terra_finder_gc.pl" ]
 
 COPY Dockerfile /opt/
