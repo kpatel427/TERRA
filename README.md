@@ -8,3 +8,4 @@ ALT is usually activated by loss of function of ATRX gene.
 TERRA - telomeric repeat containing RNA, a non-coding RNA transcribed from telomeric DNA by RNA polymerase II
 TERRA expression and increased telomere DNA abundance suggests activation of ALT independently of ATRX status. 
 
+The script counts reads containing telomeric repeats.
