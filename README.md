@@ -1,8 +1,8 @@
 # TERRA
 
 Telomeric length maintenance is a hallmark of cancer and it is maintained by two mututally exclusive mechanisms:
-Re-activation of telomerase reverse transcriptase (TERT)
-Activation of Alternative Lengthenung if Telomeres (ALT) pathway
+1. Re-activation of telomerase reverse transcriptase (TERT)
+2. Activation of Alternative Lengthenung if Telomeres (ALT) pathway
 
 ALT is usually activated by loss of function of ATRX gene.
 TERRA - telomeric repeat containing RNA, a non-coding RNA transcribed from telomeric DNA by RNA polymerase II
